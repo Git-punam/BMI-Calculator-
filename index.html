@@ -10,16 +10,23 @@
 <body>
     <div class="outer">
         <div class="inner">
-            <form action="">
-                <input type="text" placeholder="Weight in KG"><br /><br />
-                <input type="text" placeholder="Height in CM"><br /><br />
-                <input type="submit" value="Click Me">
-                <br><br>
-                <label>Your BMI: </label>
-                <br><br>
-                <label>Description:<label>
+            <form>
+                <input type="number" placeholder="Weight in KG" id="weight"><br /><br />
+                <input type="number" placeholder="Height in CM" id="height"><br /><br />
+                <input type="button" value="Calculate" onclick="checkbmi()">
+                <br/><br/><br/>
+                <label>Your BMI: </label><span id="bmi"></span>
+                <br/><br/>
+                <label>Description:<label><span id ="desc"></span>
             </form>
         </div>
+        <div class="react">
+            <div class="emoji-parent">
+                <div class="emoji"></div>
+            </div>
+            <div class="anime"></div>
+        </div>
     </div>
+    <script src="./js/code.js"></script>
 </body>
 </html>
