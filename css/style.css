@@ -42,15 +42,15 @@ body > .outer > .react{
     align-items: center;
     justify-content: center;
     position: relative;
-    background: red;
+    /* background: red; */
 }
 body > .outer > .react > .emoji-parent {
     width: 75%;
-    background: green;
+    /* background: green; */
     position: relative;
 }
 body > .outer > .react > .emoji-parent > .emoji{
-    background-color: black;
+    /* background-color: black; */
     position: relative;
     left: 0px;
     background-size: 100% 100% !important;
@@ -59,7 +59,7 @@ body > .outer > .react > .emoji-parent > .emoji{
     /* margin: 10px auto;     */
 }
 body > .outer > .react > .anime{
-    background-color: blue;
+    /* background-color: blue; */
     background-size: 100% 100% !important;
     height: 200px;
     width: 300px;
