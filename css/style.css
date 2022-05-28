@@ -70,6 +70,6 @@ body > .outer > .react > .anime{
     animation: first 4s linear infinite alternate-reverse ;
 }
 @keyframes first {
-    0%   {background-color:red; left:0;}
-    100% {background-color:red; left: calc(100% - 100px);}
+    0%   {background-color: #07f5cd; left:0;}
+    100% {background-color: #07f5cd; left: calc(100% - 100px);}
   } 
